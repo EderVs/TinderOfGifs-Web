@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gifs</title>
+</head>
+<body>
+	{% for gif in gifs %}
+		<p>{{ gif.url }}</p>
+		<p>{{ gif.votes }}</p>
+	{% endfor %}
+</body>
+</html>
